@@ -22,44 +22,46 @@
 
 // makePizza("butter cheese", ["pepperoni", "black olives", "bacon", "banana peppers", "anchovies", "pineapple"]);
 
-function makePizza(groupOrder) {
-  groupOrder.forEach(function(individualOrder) {
-  var toppings = "";
-  individualOrder.toppings.forEach(function(topping, index, arr) {
-    if (index === arr.length-1) {
-    toppings += topping;
-  } else if (index === arr.length-2) {
-      toppings += topping + ", and ";
-  } else {
-    toppings += topping + ", ";
-  }
-  });
-  console.log(individualOrder.name + " ordered a " + toppings +
-  " pizza with a " + individualOrder.crust + " crust!");
-});
-}
+// function makePizza(groupOrder) {
+//   groupOrder.forEach(function(individualOrder) {
+//   var toppings = "";
+//   individualOrder.toppings.forEach(function(topping, index, arr) {
+//     if (index === arr.length-1) {
+//     toppings += topping;
+//   } else if (index === arr.length-2) {
+//       toppings += topping + ", and ";
+//   } else {
+//     toppings += topping + ", ";
+//   }
+//   });
+//   console.log(individualOrder.name + " ordered a " + toppings +
+//   " pizza with a " + individualOrder.crust + " crust!");
+// });
+// }
+//
+// var ourOrders = [
+//   {
+//     name: "Aisha",
+//     crust: "cheesy pretzel",
+//     toppings: ["goat cheese", "figs", "diced tomatoes"]
+//   },
+//   {
+//     name: "Travis",
+//     crust: "parmesan",
+//     toppings: ["pepperoni", "bacon"]
+//   },
+//   {
+//     name: "Deleana",
+//     crust: "garlic cheese",
+//     toppings: ["anchovies", "black olives"]
+//   },
+//   {
+//     name: "Gaoio",
+//     crust: "cajun",
+//     toppings: ["pepperoni", "bacon"]
+//   }
+// ];
+//
+// makePizza(ourOrders);
 
-var ourOrders = [
-  {
-    name: "Aisha",
-    crust: "cheesy pretzel",
-    toppings: ["goat cheese", "figs", "diced tomatoes"]
-  },
-  {
-    name: "Travis",
-    crust: "parmesan",
-    toppings: ["pepperoni", "bacon"]
-  },
-  {
-    name: "Deleana",
-    crust: "garlic cheese",
-    toppings: ["anchovies", "black olives"]
-  },
-  {
-    name: "Gaoio",
-    crust: "cajun",
-    toppings: ["pepperoni", "bacon"]
-  }
-];
-
-makePizza(ourOrders);
+for (var i = 0; i < 100; i++)
