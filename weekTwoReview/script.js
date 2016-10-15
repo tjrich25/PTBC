@@ -64,17 +64,17 @@
 //
 // makePizza(ourOrders);
 
-var numberOne=0;
-var numberTwo=1;
-for (var i = 0; i < 100; i++ ) {
-  if (i === 0) {
-    console.log(numberOne);
-  } else if (i === 1) {
-    console.log(numberTwo)
-  } else {
-  var result = numberOne + numberTwo;
-  numberOne = numberTwo;
-  numberTwo = result;
-  console.log(result);
-  }
-}
+// var numberOne=0;
+// var numberTwo=1;
+// for (var i = 0; i < 100; i++ ) {
+//   if (i === 0) {
+//     console.log(numberOne);
+//   } else if (i === 1) {
+//     console.log(numberTwo)
+//   } else {
+//   var result = numberOne + numberTwo;
+//   numberOne = numberTwo;
+//   numberTwo = result;
+//   console.log(result);
+//   }
+// }
