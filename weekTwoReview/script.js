@@ -64,4 +64,7 @@
 //
 // makePizza(ourOrders);
 
-for (var i = 0; i < 100; i++)
+for (var i = 0; i < 100; i++) {
+  var numberOne=0;
+  var numberTwo=1;
+}
