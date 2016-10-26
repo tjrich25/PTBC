@@ -1,0 +1,14 @@
+#container {
+  box-sizing: border-box;
+  width: 550px;
+  margin: 10% auto;
+  border: 1px dashed blue;
+  background-color: #e6f9ff;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+form {
+  text-align: center;
+}
